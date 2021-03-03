@@ -1,11 +1,8 @@
 {
-  "name": "react",
+  "name": "mini-figma-app",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "description": "a mini figma app made using react with hooks",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@babel/runtime": "7.13.8",

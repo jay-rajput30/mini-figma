@@ -1,4 +1,59 @@
-.App {
-  font-family: sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 1rem auto;
+  height: 100vh;
+  font-family: "Segoe UI";
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+.figma {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #9ca3af;
+  padding: 1rem;
+  width: 70vw;
+}
+
+/* form styling */
+
+.size-selector {
+  border: none;
+  background-color: white;
+  font-family: inherit;
+  padding: 0.3rem;
+}
+
+.form-field {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.set-btn {
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+}
+
+/* sample display conponenet style */
+.sample-display {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #e5e7eb;
+  /* width: 100%; */
+  height: 30vh;
+  border-radius: 5px;
 }
