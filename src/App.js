@@ -12,6 +12,10 @@ export default function App() {
   //click handler for setting style
   const clickHandler = (e) => {
     e.preventDefauult();
+
+    const handleHeading = (e) => {
+      console.log(e);
+    };
   };
   return (
     <div className="container">
@@ -28,8 +32,12 @@ export default function App() {
             </select>
           </div>
           <div className="form-field">
-            <label for="size-selector">select heading font: </label>
-            <select className="size-selector" name="size-selector">
+            <label for="heading-selector">select heading font: </label>
+            <select
+              onSelect={handleHeading}
+              className="heading-selector"
+              name="heading-selector"
+            >
               {/* <option></option> */}
               <option>Oswald</option>
               <option>Merriweather</option>
@@ -37,8 +45,8 @@ export default function App() {
             </select>
           </div>
           <div className="form-field">
-            <label for="size-selector">select text font: </label>
-            <select className="size-selector" name="size-selector">
+            <label for="text-selector">select text font: </label>
+            <select className="text-selector" name="text-selector">
               <option>Roboto</option>
               <option>Poppins</option>
               <option>Open Sans</option>
